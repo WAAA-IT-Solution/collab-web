@@ -57,7 +57,7 @@ const BusinessImpact = () => {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Chart */}
+          { /* Chart */ }
           <div ref={ref} className="bg-black/30 p-8 rounded-xl border border-gray-800">
             <h3 className="text-xl font-semibold text-white mb-6">Growth Over Time</h3>
             <div className="h-64 flex items-end justify-between space-x-2">
@@ -80,7 +80,7 @@ const BusinessImpact = () => {
             </div>
           </div>
           
-          {/* Stats */}
+          { /* Stats */ }
           <div className="space-y-8">
             {stats.map((stat, index) => (
               <div 
@@ -100,7 +100,7 @@ const BusinessImpact = () => {
               </div>
             ))}
             
-            {/* Testimonial */}
+            { /* Testimonial */ }
             <div className={`bg-gray-800/50 p-6 rounded-xl border border-gray-700 transition-all duration-700 ${
               inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`} style={{ transitionDelay: '600ms' }}>
