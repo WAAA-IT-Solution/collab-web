@@ -79,17 +79,17 @@ const Hero = () => {
             </button>
           </div>
           
-          <div className={`text-sm text-gray-500 transition-all duration-1000 delay-700 ${
+          {/* <div className={`text-sm text-gray-500 transition-all duration-1000 delay-700 ${
             loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}>
             Designed by COLLAB Team
-          </div>
+          </div> */}
         </div>
         
-        {/* Scroll Indicator */}
+        {/* Scroll Indicator
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ChevronDown className="w-8 h-8 text-gray-400" />
-        </div>
+        </div> */}
       </div>
     </section>
   );
